@@ -7,5 +7,6 @@ namespace GeekShopping.ProductAPI.Model.Context {
         public MySQLContext(DbContextOptions<MySQLContext>options) : base(options) {}
 
         public DbSet<BaseEntity> BaseEntitys { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
